@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        JavaJam Coffee House Jobs
+    </title>
+    <link rel="stylesheet" href="css/javajam.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>
+                JavaJam Coffee House
+            </h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="Index.html">
+                        <b>
+                            Home
+                        </b>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="Menu.html">
+                        <b>
+                            Menu
+                        </b>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="Music.html">
+                        <b>
+                            Music
+                        </b>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="Job.html">
+                        <b>
+                            Job
+                        </b>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <main>
+
+            <div id="herojobs">
+
+            </div>
+
+            <h2>
+                Jobs at JavaJam
+            </h2>
+
+            <p>
+                Want to work at JavaJam? Fill out the form
+                below to start yourapplication.
+            </p>
+
+            <form action="https://webdevbasics.net/scripts/javajam8.php" method="POST">
+                <label for="myName">*Name: </label>
+                <input type="text" required id="myName" name="myName" />
+
+                <label for="myEmail">*E-mail: </label>
+                <input type="email" required id="myEmail" name="myEmail" />
+
+                <label for="myExperience">*Experience: </label>
+                <textarea id="myExperience" required name="myExperience" rows="2" cols="20"></textarea>
+
+                <input type="submit" id="mySubmit" Name="mySubmit" value="Apply Now" />
+            </form>
+
+        </main>
+
+        <footer>
+            <small>
+                <i>
+                    Copyright © 2018 JavaJam Coffee House
+                    <a href="https://tarc.edu.my/"><br>My website</a>
+                </i>
+            </small>
+        </footer>
+    </div>
+</body>
+
+</html>
